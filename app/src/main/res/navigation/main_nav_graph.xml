@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.credit.intelligencia.splashscreen.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/toOnboardingFragment"
+            app:destination="@id/onboardingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.credit.intelligencia.onboarding.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/toAuthFragment"
+            app:destination="@id/authFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.credit.intelligencia.auth.AuthFragment"
+        android:label="AuthFragment" >
+        <action
+            android:id="@+id/toRegisterFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/toLoginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+
+
+    <fragment
+    android:id="@+id/loginFragment"
+    android:name="com.credit.intelligencia.login.LoginFragment"
+    android:label="fragment_login"
+    tools:layout="@layout/fragment_login" >
+    <action
+        android:id="@+id/toRegisterFragment"
+        app:destination="@id/registerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/toWelcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+
+
+
+    </fragment>
+
+    <fragment
+    android:id="@+id/registerFragment"
+    android:name="com.credit.intelligencia.register.RegisterFragment"
+    android:label="fragment_register"
+    tools:layout="@layout/fragment_register" >
+    <action
+        android:id="@+id/toLoginFragment"
+        app:destination="@id/loginFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/toWelcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.credit.intelligencia.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+
+        <action
+            android:id="@+id/toPermissionFragment"
+            app:destination="@id/permissionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+
+
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/permissionFragment"
+        android:name="com.credit.intelligencia.permission.PermissionFragment"
+        android:label="fragment_permission"
+        tools:layout="@layout/fragment_permission" >
+        <action
+            android:id="@+id/toLoanApplicationFragment"
+            app:destination="@id/loanApplicationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+
+    </fragment>
+
+    <fragment
+    android:id="@+id/loanApplicationFragment"
+    android:name="com.credit.intelligencia.loan_application.LoanApplicationFragment"
+    android:label="fragment_loan_application"
+    tools:layout="@layout/fragment_loan_application" >
+
+    <action
+        android:id="@+id/toLoanDisbursmentFragment"
+        app:destination="@id/loanDisbursmentFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="creditLimits"
+            app:argType="com.credit.intelligencia.data.ScoreLimit" />
+        <argument
+            android:name="email"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+    android:id="@+id/loanDisbursmentFragment"
+    android:name="com.credit.intelligencia.loan_disbursment.LoanDisbursmentFragment"
+    android:label="fragment_loan_disbursment"
+    tools:layout="@layout/fragment_loan_disbursment" >
+
+        <argument
+            android:name="userTransaction"
+            app:argType="com.credit.intelligencia.data.Transaction"/>
+
+    </fragment>
+
+
+
+</navigation>

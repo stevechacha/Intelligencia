@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.AuthFragment">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/imageSlideIcon"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="110dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="signup.json"
+        app:lottie_loop="true"
+        tools:layout_editor_absoluteX="14dp" />
+
+
+
+
+    <Button
+        android:id="@+id/toSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="@string/sign_in"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/toSignUp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/toSignUp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="18dp"
+        android:fontFamily="@font/poppins_regular"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="@string/sign_up"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_500"
+        android:textSize="22sp"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="@color/purple_500"
+        app:strokeWidth="2dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

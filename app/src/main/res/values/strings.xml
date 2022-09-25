@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Intelligencia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="text_validation_success">success</string>
+    <string name="text_validation_error_email">Enter Valid Email</string>
+    <string name="text_validation_error_empty_field">Enter all fields</string>
+    <string name="text_validation_error_min_pass_length">Your password is minimum</string>
+    <string name="text_validation_error_max_pass_length">You have entered maximum limit</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="first_name">First Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="id_number">ID Number</string>
+    <string name="condition">By registering for CreditScore you agree to the\n Terms and Condition as set out in the application </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="grow_your_business">Grow Your Business</string>
+    <string name="continuee">Continue</string>
+    <string name="register">Register</string>
+    <string name="phone_number_prefix">254</string>
+
+
+    <string name="food">FRESH FOOD</string>
+    <string name="delivery">FAST DELIVERY</string>
+    <string name="payment">EASY PAYMENT</string>
+
+    <string name="lorem">No bank Statements required .</string>
+    <string name="login_to_your_account_to_continue">Login to your account to continue</string>
+    <string name="email_or_mobile_number">Email or Mobile Number</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="success">Success</string>
+    <string name="select">Select Item</string>
+    <string-array name="duration">
+        <item>1 month</item>
+    </string-array>
+</resources>
