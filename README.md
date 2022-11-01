@@ -45,6 +45,9 @@ Financial applications - The count of financial apps in the android phone
 Used Python ( Flask  for Api)
 
 
+Here are some of the Screenshot of the App
+
+
 
 
 
