@@ -1,4 +1,4 @@
-# Intelligencia
+# Credit Scoring App
 
 ### CREDIT SCORING FOR NON CUSTOMER
 
@@ -53,7 +53,7 @@ Here are some of the Screenshot of the App
 
 ![image](https://user-images.githubusercontent.com/48447675/199010626-4033e891-aebc-42ab-a2f9-cea41b957864.png)
 
-## Tech Stack.
+## Stack Used.
 - [Kotlin](https://developer.android.com/kotlin) - Kotlin is a programming language that can run on JVM. Google has announced Kotlin as one of its officially supported programming languages in Android Studio; and the Android community is migrating at a pace from Java to Kotlin.
 - Jetpack components:
   - [Android KTX](https://developer.android.com/kotlin/ktx.html) - Android KTX is a set of Kotlin extensions that are included with Android Jetpack and other Android libraries. KTX extensions provide concise, idiomatic Kotlin to Jetpack, Android platform, and other APIs.
