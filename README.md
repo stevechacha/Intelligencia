@@ -48,6 +48,11 @@ Used Python ( Flask  for Api)
 Here are some of the Screenshot of the App
 
 
+![image](https://user-images.githubusercontent.com/48447675/199010482-961857fa-5ced-4e25-a84b-ec7b3924a93d.png)
+
+
+![image](https://user-images.githubusercontent.com/48447675/199010626-4033e891-aebc-42ab-a2f9-cea41b957864.png)
+
 ## Tech Stack.
 - [Kotlin](https://developer.android.com/kotlin) - Kotlin is a programming language that can run on JVM. Google has announced Kotlin as one of its officially supported programming languages in Android Studio; and the Android community is migrating at a pace from Java to Kotlin.
 - Jetpack components:
@@ -64,15 +69,4 @@ Here are some of the Screenshot of the App
 - [Logging Interceptor](https://github.com/square/okhttp/blob/master/okhttp-logging-interceptor/README.md) -  logs HTTP request and response data.
 - [Coil](https://coil-kt.github.io/coil/compose/)- An image loading library for Android backed by Kotlin Coroutines.
 - [Timber](https://github.com/JakeWharton/timber)- A logger with a small, extensible API which provides utility on top of Android's normal Log class.
-
-
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/48447675/199010482-961857fa-5ced-4e25-a84b-ec7b3924a93d.png)
-
-
-![image](https://user-images.githubusercontent.com/48447675/199010626-4033e891-aebc-42ab-a2f9-cea41b957864.png)
 
