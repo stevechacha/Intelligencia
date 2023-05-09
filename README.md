@@ -6,26 +6,19 @@ The goal of this solution is to assess customers credit worthiness utilising And
 
 
 #### 1. EXTRACTING ANDROID DATA USING APP
--SMS/MMS
 
--Call logs
-
--Installed android application
-
--Contacts
-
--System logs and informatio( on-progress)
+- SMS/MMS
+- Call logs
+- Installed android application
+- Contacts
+- System logs and informatio( on-progress)
 
 ##### 2. DATA PREPROCESSING
--Data cleaning
-
--Feature engineering
-
--Missing Data treatment
-
--Feature selection
-
--Outlier treatment
+- Data cleaning
+- Feature engineering
+- Missing Data treatment
+- Feature selection
+- Outlier treatment
 
 ### 3. MODELING
 
